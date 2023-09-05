@@ -1,0 +1,7 @@
+p {
+    color: blue;
+}
+
+div ul:last-of-type li ul li:last-child  {
+    color: red;
+}

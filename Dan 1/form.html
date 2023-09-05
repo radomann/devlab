@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h1>Forme</h1>
+
+    <form>
+        <input type="text" placeholder="Enter your name">
+        <input type="number" placeholder="Enter your phone number">
+        <input type="password" placeholder="Enter your password">
+        <div>
+            <label for="option-1">
+                <input id="option-1" type="radio" name="radio-options" value="1">
+                Option 1
+            </label>
+            <label for="option-2">
+                <input id="option-2" type="radio" name="radio-options" value="2">
+                Option 2
+            </label>
+        </div>
+        <div>
+            <label for="option-3">
+                <input id="option-3" type="checkbox" name="checkbox-options" value="kecap">
+                Kecap
+            </label>
+            <label for="option-4">
+                <input id="option-4" type="checkbox" name="checkbox-options" value="origano">
+                Origano
+            </label>
+            <label for="option-4">
+                <input id="option-4" type="checkbox" name="checkbox-options" value="cajna">
+                Cajna
+            </label>
+        </div>
+        <div>
+            <input type="file" name="file" style="padding: 10px 0;">
+        </div>
+        <button type="submit">Submit</button>
+
+        <div>
+            <h2>Select</h2>
+            <select name="select" id="select">
+                <option value="value-1"></option>
+                <option value="value-2">Dva</option>
+                <option value="value-3">Tri</option>
+                <option value="value-4">Cetiri</option>
+                <option value="value-5">Pet</option>
+            </select>
+        </div>
+
+        <div>
+            <h2>Text Area</h2>
+            <textarea name="comment" id="comment" cols="30" rows="10">Default comment
+            </textarea>
+        </div>
+    </form>
+
+    <div>
+        <ul>
+            <li>1.1</li>
+            <li>1.2</li>
+            <li>1.3</li>
+            <li>1.4</li>
+        </ul>
+        <ul>
+            <li>2.1</li>
+            <li>2.2</li>
+            <li>2.3</li>
+            <li>
+                <ul>
+                    <li>2.4.1</li>
+                    <li>2.4.2</li>
+                    <li>2.4.3</li>
+                    <li>2.4.4</li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</body>
+</html>
