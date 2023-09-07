@@ -54,7 +54,6 @@ let studenti = [
   function prosjek(studenti) {
     let odlicniStudenti = {};
     for(key in studenti) {
-        // console.log(studenti[key]);
         if(studenti[key].prosjek > 8.5) {
             odlicniStudenti[key] = studenti[key];
         }
